@@ -7,7 +7,7 @@ The minimum required memory to run this and still have all the functionality is 
 
 # Setting up
 By default, the script is set up to run on Linux, I have not tested it on windows but it should run fine.<br />
-Acquire your Spotify secret and tokens, there are tutorials for getting them online, I will not be explaining the process in this repo.<br />
+Acquire your Spotify secret and tokens, there are tutorials for getting them online, I personally followed [this](https://youtu.be/-FsFT6OwE1A "Automate Spotify with Python") guide for acquiring my tokens and setting up the secrets file.
 1. Clone this repo
 2. Clone KATOSC in the same directory
 3. Install pythonosc using pip
