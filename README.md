@@ -1,13 +1,13 @@
 # SpotifyOSC
 Syncs spotify with VRChat using OSC.
-Synching is done via pinging the Spotify API and requesting the song name, author, album name and the currrent position in the song.
-The script pushes out the Author, album name & artist, the current position and a random float value based on the album name. 
-Text is handled through [KAT](https://github.com/killfrenzy96/KatOscApp "KAT's Github page") and I use the random float value to generate a pseudorandom cover art for each album. 
-The minimum required memory to run this and still have all the functionality is 35 bits but I recommend using 51 bits in order to have faster synching on the text, the text will appear sluggishly with 35 bits.
+Synching is done via pinging the Spotify API and requesting the song name, author, album name and the currrent position in the song.<br />
+The script pushes out the Author, album name & artist, the current position and a random float value based on the album name. <br />
+Text is handled through [KAT](https://github.com/killfrenzy96/KatOscApp "KAT's Github page") and I use the random float value to generate a pseudorandom cover art for each album. <br />
+The minimum required memory to run this and still have all the functionality is 35 bits but I recommend using 51 bits in order to have faster synching on the text, the text will appear sluggishly with 35 bits.<br />
 
 # Setting up
-By default, the script is set up to run on Linux, I have not tested it on windows but it should run fine.
-Acquire your Spotify secret and tokens, there are tutorials for getting them online, I will not be explaining the process in this repo.
+By default, the script is set up to run on Linux, I have not tested it on windows but it should run fine.<br />
+Acquire your Spotify secret and tokens, there are tutorials for getting them online, I will not be explaining the process in this repo.<br />
 1. Clone this repo
 2. Clone KATOSC in the same directory
 3. Install pythonosc using pip
