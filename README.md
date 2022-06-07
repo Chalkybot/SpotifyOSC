@@ -4,6 +4,7 @@ Synching is done via pinging the Spotify API and requesting the song name, autho
 The script pushes out the Author, album name & artist, the current position and a random float value based on the album name. <br />
 Text is handled through [KAT](https://github.com/killfrenzy96/KatOscApp "KAT's Github page") and I use the random float value to generate a pseudorandom cover art for each album. <br />
 The minimum required memory to run this and still have all the functionality is 35 bits but I recommend using 51 bits in order to have faster synching on the text, the text will appear sluggishly with 35 bits.<br />
+[![Script in action](https://i.imgur.com/euqAjAY.jpeg)](https://streamable.com/l9p2mr)
 
 # Setting up
 By default, the script is set up to run on Linux, I have not tested it on windows but it should run fine.<br />
